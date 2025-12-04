@@ -1,5 +1,10 @@
 {
+  "name": "api-testing-project",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "json-server --watch API_Testing_data.json --port 10000"
+  },
   "dependencies": {
-    "json-server": "json-server --watch API_Testing_data.json --port 10000"
+    "json-server": "^0.17.4"
   }
 }
